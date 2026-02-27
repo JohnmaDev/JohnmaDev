@@ -57,21 +57,28 @@ text, tspan {white-space: pre;}
 </text>
 </g>
 <g id="info-panel">
-<text x="495" y="169.5" fill="#24292f"><tspan x="495" y="169.5">-----------------JohnmaDev@github------------------</tspan>
-<tspan x="495" y="188.7">---------------------------------------------------</tspan>
-<tspan x="495" y="211.73999999999998" class="key">🎂 Edad: </tspan><tspan x="571.8" y="211.73999999999998" fill="#24292f">.................</tspan><tspan x="744.6" y="211.73999999999998" class="value">25 años, 0 meses, 23 días</tspan>
-<tspan x="495" y="230.93999999999997" class="key">📍 Ubicación: </tspan><tspan x="619.8" y="230.93999999999997" fill="#24292f">...................</tspan><tspan x="811.8" y="230.93999999999997" class="value">Medellín, Colombia</tspan>
-<tspan x="495" y="250.13999999999996" class="key">💡 Intereses: </tspan><tspan x="619.8" y="250.13999999999996" fill="#24292f">..............</tspan><tspan x="763.8" y="250.13999999999996" class="value">Desarrollo web, Backend</tspan>
-<tspan x="495" y="278.94" class="section-title">- Stack</tspan><tspan x="562.2" y="278.94" fill="#24292f">--------------------------------------------</tspan>
-<tspan x="495" y="301.98" class="key">💻 Stack: </tspan><tspan class="value">Python, JS, .NET Core, C#, GitHub Actions</tspan>
-<tspan x="495" y="321.18" class="key">🧠 Lenguajes de Programación: </tspan><tspan class="value">JavaScript, C#</tspan>
-<tspan x="495" y="340.38" class="key">🌐 Tecnologías Web: </tspan><tspan class="value">HTML, CSS, Vue.js, Node.js</tspan>
-<tspan x="495" y="359.58" class="key">💾 Bases de Datos: </tspan><tspan class="value">MSSQL Server, MySQL</tspan>
-<tspan x="495" y="378.78" class="key">🛠️ Herramientas DevOps: </tspan><tspan class="value">GitHub Actions</tspan>
-<tspan x="495" y="407.58" class="section-title">- Hobbies</tspan><tspan x="581.4" y="407.58" fill="#24292f">------------------------------------------</tspan>
-<tspan x="495" y="430.62" class="key">🎮 Hobbies: </tspan><tspan class="value">Lectura, Gimnasio</tspan>
-<tspan x="495" y="459.42" class="section-title">- Contacto</tspan><tspan x="591.0" y="459.42" fill="#24292f">-----------------------------------------</tspan>
-<tspan x="495" y="482.46000000000004" class="key">📧 Email: </tspan><tspan class="value">jhonechavarria0506@gmail.com</tspan>
-<tspan x="495" y="501.66" class="key">🔗 LinkedIn: </tspan><tspan class="value">john-mario-echavarria-bermudez/</tspan>
+<text x="495" y="102.30000000000001" fill="#24292f"><tspan x="495" y="102.30000000000001">-----------------JohnmaDev@github------------------</tspan>
+<tspan x="495" y="121.50000000000001">---------------------------------------------------</tspan>
+<tspan x="495" y="144.54000000000002" class="key">🎂 Edad: </tspan><tspan x="571.8" y="144.54000000000002" fill="#24292f">.................</tspan><tspan x="744.6" y="144.54000000000002" class="value">25 años, 0 meses, 23 días</tspan>
+<tspan x="495" y="163.74" class="key">📍 Ubicación: </tspan><tspan x="619.8" y="163.74" fill="#24292f">...................</tspan><tspan x="811.8" y="163.74" class="value">Medellín, Colombia</tspan>
+<tspan x="495" y="182.94" class="key">💡 Intereses: </tspan><tspan x="619.8" y="182.94" fill="#24292f">..............</tspan><tspan x="763.8" y="182.94" class="value">Desarrollo web, Backend</tspan>
+<tspan x="495" y="211.73999999999998" class="section-title">- Stack</tspan><tspan x="562.2" y="211.73999999999998" fill="#24292f">--------------------------------------------</tspan>
+<tspan x="495" y="234.77999999999997" class="key">💻 Stack: </tspan><tspan class="value">Python, JS, .NET Core, C#, GitHub Actions</tspan>
+<tspan x="495" y="253.97999999999996" class="key">🧠 Lenguajes de Programación: </tspan><tspan class="value">JavaScript, C#</tspan>
+<tspan x="495" y="273.17999999999995" class="key">🌐 Tecnologías Web: </tspan><tspan class="value">HTML, CSS, Vue.js, Node.js</tspan>
+<tspan x="495" y="292.37999999999994" class="key">💾 Bases de Datos: </tspan><tspan class="value">MSSQL Server, MySQL</tspan>
+<tspan x="495" y="311.5799999999999" class="key">🛠️ Herramientas DevOps: </tspan><tspan class="value">GitHub Actions</tspan>
+<tspan x="495" y="340.37999999999994" class="section-title">- Hobbies</tspan><tspan x="581.4" y="340.37999999999994" fill="#24292f">------------------------------------------</tspan>
+<tspan x="495" y="363.41999999999996" class="key">🎮 Hobbies: </tspan><tspan class="value">Lectura, Gimnasio</tspan>
+<tspan x="495" y="392.21999999999997" class="section-title">- Contacto</tspan><tspan x="591.0" y="392.21999999999997" fill="#24292f">-----------------------------------------</tspan>
+<tspan x="495" y="415.26" class="key">📧 Email: </tspan><tspan class="value">jhonechavarria0506@gmail.com</tspan>
+<tspan x="495" y="434.46" class="key">🔗 LinkedIn: </tspan><tspan class="value">john-mario-echavarria-bermudez/</tspan>
+<tspan x="495" y="463.26" class="section-title">- GitHub Stats</tspan><tspan x="629.4" y="463.26" fill="#24292f">-------------------------------------</tspan>
+<tspan x="495" y="486.3" class="key">📦 Total Repositorios: </tspan><tspan x="706.2" y="486.3" fill="#24292f">...........................</tspan><tspan x="975.0000000000001" y="486.3" class="value">7</tspan>
+<tspan x="495" y="505.5" class="key">⭐ Estrellas Totales: </tspan><tspan x="696.6" y="505.5" fill="#24292f">............................</tspan><tspan x="975.0000000000001" y="505.5" class="value">0</tspan>
+<tspan x="495" y="524.7" class="key">🍴 Forks Totales: </tspan><tspan x="658.2" y="524.7" fill="#24292f">................................</tspan><tspan x="975.0000000000001" y="524.7" class="value">0</tspan>
+<tspan x="495" y="543.9000000000001" class="key">⚡ Total Commits: </tspan><tspan x="658.2" y="543.9000000000001" fill="#24292f">..............................</tspan><tspan x="955.8000000000001" y="543.9000000000001" class="value">162</tspan>
+<tspan x="495" y="563.1000000000001" class="key">👥 Seguidores: </tspan><tspan x="629.4" y="563.1000000000001" fill="#24292f">...................................</tspan><tspan x="975.0" y="563.1000000000001" class="value">0</tspan>
+<tspan x="495" y="582.3000000000002" class="key">📈 Líneas de Código (LOC): </tspan><tspan class="value">50,352</tspan><tspan class="value"> (</tspan><tspan fill="#3fb950">+54</tspan><tspan class="value">,</tspan><tspan> </tspan><tspan fill="#f85149">-3</tspan><tspan class="value">)</tspan>
 </text>
 </g> </svg>
