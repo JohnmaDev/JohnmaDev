@@ -5,11 +5,11 @@ on:
     branches:
       - main
   schedule:
-    - cron: '0 0 * * *'   # todos los días a medianoche UTC
+    - cron: '0 0 * * *'   
   workflow_dispatch:
 
 permissions:
-  contents: write   # 🔑 Esto le da permiso al bot para hacer push
+  contents: write   
 
 jobs:
   update-readme:
@@ -19,7 +19,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          # Es buena práctica pasar explícitamente el token para asegurar permisos en el checkout
           token: ${{ secrets.GITHUB_TOKEN }} 
 
       - name: Instalar Python
@@ -34,8 +33,6 @@ jobs:
 
       - name: Ejecutar script
         env:
-          # ¡CORRECCIÓN AQUÍ! Asegúrate de que el nombre de la variable coincida con lo que tu script espera.
-          # Tu script espera 'GITHUB_TOKEN', no 'GH_TOKEN'.
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PROFILE_IMAGE_BASE64: ${{ secrets.PROFILE_IMAGE_BASE64 }}
         run: |
@@ -55,5 +52,8 @@ jobs:
           # Configura la URL remota con el token para autenticar el push
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           
+          # Sincroniza antes de subir (evita el error 'fetch first')
+          git pull --rebase origin main
+
           # Finalmente, sube los cambios
           git push

@@ -100,9 +100,10 @@ def obtener_datos_github_graphql(username, token):
     query($login: String!) {
       user(login: $login) {
         followers { totalCount }
-        repositories(first: 30, ownerAffiliations: OWNER, orderBy: {field: PUSHED_AT, direction: DESC}) {
+        repositories(first: 50, ownerAffiliations: [OWNER, COLLABORATOR, ORGANIZATION_MEMBER], orderBy: {field: PUSHED_AT, direction: DESC}) {
           totalCount
           nodes {
+            name
             stargazers { totalCount }
             forkCount
             defaultBranchRef {
@@ -116,6 +117,8 @@ def obtener_datos_github_graphql(username, token):
                         user {
                           login
                         }
+                        name
+                        email
                       }
                     }
                   }
@@ -150,8 +153,14 @@ def obtener_datos_github_graphql(username, token):
             if repo["defaultBranchRef"] and repo["defaultBranchRef"]["target"]:
                 commits = repo["defaultBranchRef"]["target"]["history"]["nodes"]
                 for commit in commits:
-                    # Solo contar si el autor es el usuario (login coincide)
+                    # Coincidencia de autor robusta: login o nombre
+                    is_me = False
                     if commit["author"]["user"] and commit["author"]["user"]["login"].lower() == username.lower():
+                        is_me = True
+                    elif commit["author"]["name"] and commit["author"]["name"].lower() == username.lower():
+                        is_me = True
+                    
+                    if is_me:
                         total_additions += commit["additions"]
                         total_deletions += commit["deletions"]
 
